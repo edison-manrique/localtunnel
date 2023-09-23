@@ -1,5 +1,5 @@
 /**
- * Retrasa la resolución de una promesa por el tiempo especificado en milisegundos
+* Retrasa la resolución de una promesa por el tiempo especificado en milisegundos
 * @param {number} milliseconds - Tiempo a esperar antes de resolver la promesa
 * @returns {Promise<void>} Promesa resuelta después de la espera
 */
