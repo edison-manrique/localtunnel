@@ -1,6 +1,7 @@
 import LocalTunnel from "./modules/localtunel/localtunnel.ts"
 import input from "./modules/utils/input.ts"
 
+
 let localport: number = Number(await input("Ingresa el puerto de tu servidor localhost"))
 while(localport < 80 || localport > 10000){
     console.log("el puerto local debe ser >= 80 & <= 10000")
