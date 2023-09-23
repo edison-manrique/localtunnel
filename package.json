@@ -1,0 +1,22 @@
+{
+  "name": "localtunnel",
+  "module": "app.ts",
+  "type": "module",
+  "author": "Edison Manrique",
+  "description": "localtunnel test",
+  "devDependencies": {
+    "@types/localtunnel": "^2.0.2",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "localtunnel": "^2.0.2",
+    "package.json": "^2.0.1"
+  },
+  "scripts": {
+    "bun": "bun app.ts",
+    "node": "node app.js"
+  }
+}
