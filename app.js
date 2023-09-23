@@ -18,6 +18,5 @@ while(subdomain.length < 3){
 const tunnel = new LocalTunnel(localport, subdomain)
 tunnel
 .onOpen(info => console.log(info))
-.onClose()
 
 await tunnel.open()
